@@ -115,12 +115,13 @@ WiFi CSI based human presence detection & pose estimation on ESP32-S3.
 
 </div>
 
-> Bagian ini butuh setup sekali di GitHub Actions supaya ularnya benar-benar bergerak memakan kotak kontribusi kamu tiap hari.
+> Gambar di atas masih akan terlihat patah sampai kamu menjalankan workflow-nya minimal sekali. Ini bukan bug, tapi memang belum ada apa-apanya karena branch `output` tempat gambar ini disimpan baru dibuat otomatis setelah workflow selesai berjalan. Urutan yang benar:
+> 1. Buat file baru di repo ini dengan path persis `.github/workflows/snake.yml`, isi dengan kode di bawah, lalu commit.
+> 2. Buka tab `Actions` di repo ini, pilih workflow `Generate Snake Animation`, klik `Run workflow` untuk menjalankannya secara manual pertama kali.
+> 3. Tunggu sampai statusnya centang hijau (biasanya 1-2 menit), lalu refresh halaman README ini. Setelah itu gambar akan otomatis update sendiri setiap hari sesuai jadwal di workflow.
 
 <details>
 <summary>Isi workflow (klik untuk buka)</summary>
-
-Buat file baru di repo ini dengan path persis `.github/workflows/snake.yml`, lalu isi dengan kode berikut. GitHub hanya mengeksekusi workflow yang ada di path itu, jadi kode ini tidak bisa langsung berjalan hanya dengan menaruhnya di README.
 
 ```yaml
 name: Generate Snake Animation
