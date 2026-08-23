@@ -19,7 +19,7 @@
 
 ##  About Me!
 
-I'm an **Information Technology student** at President University (Batch 2025), currently building full-stack products that blend clean architecture with polished, fintech-grade UI/UX. Outside the codebase, I'm active in **PUFA Compsci**, serving as **Exhibition Division PIC for Compsphere 2026** — the faculty's flagship annual hackathon.
+I'm an **Information Technology student** at President University (Batch 2025), currently building full-stack products that blend clean architecture with polished, fintech-grade UI/UX. Outside the codebase, I'm active in **PUFA Compsci**, serving as **Exhibition Division PIC for Compsphere 2026** the faculty's flagship annual hackathon.
 
 -  Currently building **SpendWise Studio** a full-stack financial tracking app (Next.js, Prisma, PostgreSQL)
 -  Also shipping an **E-Cafe ordering system** with a strict 4-color design system
