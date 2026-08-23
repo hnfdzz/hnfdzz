@@ -9,9 +9,9 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/hanif-abdurrahman-243b4736a/" target="_blank"><img src="./assets/linkedin-badge.svg" alt="Connect on LinkedIn" height="40"/></a>
+<a href="https://www.linkedin.com/in/hanif-abdurrahman-243b4736a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://www.instagram.com/hnfdzz_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-<a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="mailto:abdurrahmanhaniff39@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 </div>
 
@@ -28,7 +28,9 @@ I'm an **Information Technology student** at President University (Batch 2025), 
 - Ask me about backend architecture, chaos engineering, or Streamlit dashboards
 - Fun fact: I care as much about pixel perfect UI as I do about clean backend logic
 
-<br/>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,100:1e293b&height=3&section=header" width="100%"/>
+</div>
 
 ## Tech Stack
 
@@ -52,7 +54,9 @@ I'm an **Information Technology student** at President University (Batch 2025), 
 
 </div>
 
-<br/>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,100:1e293b&height=3&section=header" width="100%"/>
+</div>
 
 ## Featured Projects
 
@@ -99,7 +103,64 @@ WiFi CSI based human presence detection & pose estimation on ESP32-S3.
 
 </div>
 
-<br/>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,100:1e293b&height=3&section=header" width="100%"/>
+</div>
+
+## Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/hnfdzz/hnfdzz/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation"/>
+
+</div>
+
+> Bagian ini butuh setup sekali di GitHub Actions supaya ularnya benar-benar bergerak memakan kotak kontribusi kamu tiap hari.
+
+<details>
+<summary>Isi workflow (klik untuk buka)</summary>
+
+Buat file baru di repo ini dengan path persis `.github/workflows/snake.yml`, lalu isi dengan kode berikut. GitHub hanya mengeksekusi workflow yang ada di path itu, jadi kode ini tidak bisa langsung berjalan hanya dengan menaruhnya di README.
+
+```yaml
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: hnfdzz
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+</details>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,100:1e293b&height=3&section=header" width="100%"/>
+</div>
 
 ## GitHub Analytics
 
