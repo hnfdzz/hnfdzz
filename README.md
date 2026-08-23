@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/hanif-abdurrahman-243b4736a/" target="_blank"><img src="./assets/linkedin-badge.svg" alt="Connect on LinkedIn" height="40"/></a>
 <a href="https://www.instagram.com/hnfdzz_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
@@ -36,7 +36,7 @@ I'm an **Information Technology student** at President University (Batch 2025), 
 
 **Languages**
 <br/>
-<img src="https://skillicons.dev/icons?i=py,js,ts,rust&theme=dark" />
+<img src="https://skillicons.dev/icons?i=py,c,cpp,js,ts,rust&theme=dark" />
 
 **Frontend & Frameworks**
 <br/>
