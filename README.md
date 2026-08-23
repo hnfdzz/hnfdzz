@@ -17,20 +17,20 @@
 
 <br/>
 
-## 👋 About Me
+## About Me
 
 I'm an **Information Technology student** at President University (Batch 2025), currently building fullstack products that blend clean architecture with polished, premium UI/UX. Outside the codebase, I'm active in **PUFA Compsci**, serving as **Exhibition Division PIC for Compsphere 2026**: the faculty's flagship annual hackathon.
 
-- 🔭 Currently building **SpendWise Studio**, a fullstack financial tracking app (Next.js, Prisma, PostgreSQL)
-- 🎯 Also shipping an **E-Cafe ordering system** with a strict four color design system
-- 🌱 Deepening my math foundations for ML (linear algebra → SVD, eigenvalues)
-- 🤝 Organizing **Compsphere 2026**, PUFA Compsci's flagship hackathon
-- 💬 Ask me about backend architecture, chaos engineering, or Streamlit dashboards
-- ⚡ Fun fact: I care as much about pixel perfect UI as I do about clean backend logic
+- Currently building **SpendWise Studio**, a fullstack financial tracking app (Next.js, Prisma, PostgreSQL)
+- Also shipping an **E-Cafe ordering system** with a strict four color design system
+- Deepening my math foundations for ML (linear algebra to SVD, eigenvalues)
+- Organizing **Compsphere 2026**, PUFA Compsci's flagship hackathon
+- Ask me about backend architecture, chaos engineering, or Streamlit dashboards
+- Fun fact: I care as much about pixel perfect UI as I do about clean backend logic
 
 <br/>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -54,7 +54,7 @@ I'm an **Information Technology student** at President University (Batch 2025), 
 
 <br/>
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <div align="center">
 
@@ -62,7 +62,7 @@ I'm an **Information Technology student** at President University (Batch 2025), 
 <tr>
 <td width="50%">
 
-### 💸 SpendWise Studio
+### SpendWise Studio
 Fullstack financial tracking web app with secure auth and real time insights.
 
 `Next.js` `TypeScript` `PostgreSQL` `Prisma` `NextAuth`
@@ -70,7 +70,7 @@ Fullstack financial tracking web app with secure auth and real time insights.
 </td>
 <td width="50%">
 
-### ☕ E-Cafe System
+### E-Cafe System
 Cafe ordering platform with a custom four color design system.
 
 `Next.js` `TypeScript` `Tailwind CSS`
@@ -80,7 +80,7 @@ Cafe ordering platform with a custom four color design system.
 <tr>
 <td width="50%">
 
-### 🛡️ ResiliOps
+### ResiliOps
 Microservice resilience & chaos engineering dashboard with a circuit breaker backed by Redis.
 
 `FastAPI` `Redis` `Next.js`
@@ -88,7 +88,7 @@ Microservice resilience & chaos engineering dashboard with a circuit breaker bac
 </td>
 <td width="50%">
 
-### 📡 WeeView
+### WeeView
 WiFi CSI based human presence detection & pose estimation on ESP32-S3.
 
 `Rust` `ESP32-S3` `Signal Processing`
@@ -101,12 +101,12 @@ WiFi CSI based human presence detection & pose estimation on ESP32-S3.
 
 <br/>
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=hnfdzz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9&count_private=true" alt="hnfdzz's GitHub stats"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hnfdzz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDF8&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+<img width="49%" src="https://github-stats-extended.vercel.app/api?username=hnfdzz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9&count_private=true" alt="hnfdzz's GitHub stats"/>
+<img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hnfdzz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDF8&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
 
 <br/><br/>
 
@@ -114,7 +114,7 @@ WiFi CSI based human presence detection & pose estimation on ESP32-S3.
 
 </div>
 
-> 💡 Kalau gambar di atas belum muncul saat pertama kali dibuka, tunggu beberapa detik lalu refresh. Server statistiknya butuh waktu render ulang setelah lama tidak diakses.
+> Catatan: kartu Stats dan Top Languages di atas kini memakai github-stats-extended, fork yang lebih stabil dan direkomendasikan langsung oleh proyek github-readme-stats setelah versi lamanya sering mengalami downtime. Kalau gambar belum muncul saat pertama kali dibuka, tunggu beberapa detik lalu refresh.
 
 <br/>
 
