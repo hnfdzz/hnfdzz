@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="[https://www.linkedin.com/in/YOUR-LINKEDIN](https://www.linkedin.com/in/hanif-abdurrahman-243b4736a/)"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://www.instagram.com/hnfdzz_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
@@ -21,7 +21,7 @@
 
 I'm an **Information Technology student** at President University (Batch 2025), currently building full-stack products that blend clean architecture with polished, fintech-grade UI/UX. Outside the codebase, I'm active in **PUFA Compsci**, serving as **Exhibition Division PIC for Compsphere 2026** — the faculty's flagship annual hackathon.
 
--  Currently building **SpendWise Studio** — a full-stack financial tracking app (Next.js, Prisma, PostgreSQL)
+-  Currently building **SpendWise Studio** a full-stack financial tracking app (Next.js, Prisma, PostgreSQL)
 -  Also shipping an **E-Cafe ordering system** with a strict 4-color design system
 -  Deepening my math foundations for ML (linear algebra → SVD, eigenvalues)
 -  Organizing **Compsphere 2026**, PUFA Compsci's flagship hackathon
@@ -30,7 +30,7 @@ I'm an **Information Technology student** at President University (Batch 2025), 
 
 <br/>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
