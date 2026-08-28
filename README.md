@@ -115,50 +115,6 @@ WiFi CSI based human presence detection & pose estimation on ESP32-S3.
 
 </div>
 
-> Gambar di atas masih akan terlihat patah sampai kamu menjalankan workflow-nya minimal sekali. Ini bukan bug, tapi memang belum ada apa-apanya karena branch `output` tempat gambar ini disimpan baru dibuat otomatis setelah workflow selesai berjalan. Urutan yang benar:
-> 1. Buat file baru di repo ini dengan path persis `.github/workflows/snake.yml`, isi dengan kode di bawah, lalu commit.
-> 2. Buka tab `Actions` di repo ini, pilih workflow `Generate Snake Animation`, klik `Run workflow` untuk menjalankannya secara manual pertama kali.
-> 3. Tunggu sampai statusnya centang hijau (biasanya 1-2 menit), lalu refresh halaman README ini. Setelah itu gambar akan otomatis update sendiri setiap hari sesuai jadwal di workflow.
-
-<details>
-<summary>Isi workflow (klik untuk buka)</summary>
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: hnfdzz
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
-
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,100:1e293b&height=3&section=header" width="100%"/>
 </div>
@@ -175,8 +131,6 @@ jobs:
 <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=hnfdzz&theme=tokyonight&hide_border=true&background=0d1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak"/>
 
 </div>
-
-> Catatan: kartu Stats dan Top Languages di atas kini memakai github-stats-extended, fork yang lebih stabil dan direkomendasikan langsung oleh proyek github-readme-stats setelah versi lamanya sering mengalami downtime. Kalau gambar belum muncul saat pertama kali dibuka, tunggu beberapa detik lalu refresh.
 
 <br/>
 
